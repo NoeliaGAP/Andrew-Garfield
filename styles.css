@@ -1,0 +1,192 @@
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(195, 247, 247);
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo-seccion {
+    font-size: 35px;
+}
+
+#principal {
+    padding: 0 2em 0 2em;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a  {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    background-color: #1388ac;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li {
+    color: white;
+    margin-right: 15px;
+}
+
+/* BIBLIOGRAFIA */
+
+.seccion-bibliografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* padding: 15px; */
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.titulo {
+    font-size: 55px;
+    text-align: center;
+    /* margin-top: 15px; */
+    margin: 15px;
+}
+
+.img-portada {
+    border-radius: 40px;
+    height: 400px;
+}
+
+/* VIDEO */
+
+.seccion-video {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.video {
+    max-width: 90%;
+    border-radius: 40px;
+}
+
+.audio {
+    display: none;
+}
+
+/* SECCION CARRERA */
+
+.carrera-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.carrera-item {
+    background-color: #87d7f0;
+    padding: 20px;
+    border-radius: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.texto-carrera {
+    /* max-width: 300px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 25px;
+}
+
+.titulo-carrera {
+    font-size: 23px;
+    font-weight: bold;
+    color: #064457;
+}
+
+.descripcion-carrera {
+    text-align: justify;
+}
+
+.img-carrera {
+    border-radius: 30px;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+/* SECCION FILMOGRAFIA */
+
+.filmografia-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.pelicula-item {
+    width: 250px;
+    background-color: #87d7f0;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.img-pelicula {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titulo-pelicula {
+    color: #064457;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 5px 0;
+}
+
+.resumen-pelicula {
+    text-align: justify;
+}
+
+/* FOTTER */
+
+footer {
+    background-color: #1388ac;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
